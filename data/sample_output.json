@@ -1,0 +1,4 @@
+[
+  {"id":"PUB-01","query":"We are a small enterprise manufacturing 33 Grade Ordinary Portland Cement. Which BIS standard covers the chemical and physical requirements for our product?","expected_standards":["IS 269: 1989"],"retrieved_standards":["IS 269: 1989","IS 8112: 1989","IS 12269: 1987","IS 455: 1989","IS 1489 (Part 1): 1991"],"latency_seconds":1.24},
+  {"id":"PUB-02","query":"I need to comply with the regulations for coarse and fine aggregates derived from natural sources intended for use in structural concrete.","expected_standards":["IS 383: 1970"],"retrieved_standards":["IS 383: 1970","IS 2116: 1980","IS 9142: 1979","IS 458: 2003","IS 2185 (Part 1): 1979"],"latency_seconds":0.89}
+]

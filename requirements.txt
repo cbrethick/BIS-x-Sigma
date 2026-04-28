@@ -1,0 +1,13 @@
+# BIS RAG Pipeline — Requirements
+# All packages are from Python stdlib except requests & scikit-learn
+# (scikit-learn is optional — only used in advanced mode)
+
+requests>=2.28.0
+scikit-learn>=1.0.0   # optional, for TF-IDF experiments
+
+# For Gemini LLM:
+# Set environment variable: GEMINI_API_KEY=your_key_here
+# No additional package needed — uses requests directly.
+
+# For PDF parsing (data preparation only, not needed at inference):
+# pypdf>=3.0.0
