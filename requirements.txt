@@ -11,3 +11,6 @@ scikit-learn>=1.0.0   # optional, for TF-IDF experiments
 
 # For PDF parsing (data preparation only, not needed at inference):
 # pypdf>=3.0.0
+
+Flask==3.0.3
+flask-cors==4.0.0
