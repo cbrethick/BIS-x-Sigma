@@ -34,7 +34,20 @@ python inference.py --input data/public_test_set.json --output data/public_resul
 python eval_script.py --results data/public_results.json
 ```
 
+### 5. Web Interface (Optional)
+To run the interactive web dashboard:
+```bash
+# Terminal 1: Start Backend
+python3 api/index.py
+
+# Terminal 2: Start Frontend
+npm install
+npm run dev
+```
+Access the dashboard at `http://localhost:3000`.
+
 ---
+
 
 ## 📁 Project Structure
 ```

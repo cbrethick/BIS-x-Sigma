@@ -29,9 +29,16 @@ export default function Home() {
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to fetch recommendations');
+        let errorMessage = 'Failed to fetch recommendations';
+        try {
+          const errorData = await response.json();
+          errorMessage = errorData.error || errorMessage;
+        } catch (e) {
+          errorMessage = `Server Error (${response.status}): ${response.statusText}`;
+        }
+        throw new Error(errorMessage);
       }
+
 
       const data = await response.json();
       setResult(data);
