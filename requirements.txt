@@ -3,7 +3,6 @@
 # (scikit-learn is optional — only used in advanced mode)
 
 requests>=2.28.0
-scikit-learn>=1.0.0   # optional, for TF-IDF experiments
 
 # For Gemini LLM:
 # Set environment variable: GEMINI_API_KEY=your_key_here
