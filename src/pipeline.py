@@ -4,7 +4,7 @@ BIS RAG Pipeline — end-to-end: query → retrieve → (optionally) LLM rationa
 
 import os
 import time
-from typing import List, dict as Dict
+from typing import List, Dict
 
 from src.retriever import BISRetriever
 from src.llm import generate_rationale
